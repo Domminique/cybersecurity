@@ -1,11 +1,12 @@
-# Ngao+ Project
+# Ngao+ Project :Cloud-based data pipeline to serve as a security log aggregation platform that analysts could use to quickly detect and mitigate threats to Kenyan networks and system
+
 **Problem**: The rapid growth of infrastructure in Africa is met with increasing cybersecurity threats, putting essential services, data, and systems at risk. Existing solutions are often costly and lack regional customization, leaving a critical gap in cybersecurity for infrastructure projects in the region.
 
 **Solution**: Ngao+ , a cutting-edge cybersecurity platform tailored to Kenyan infrastructure. It offers region-specific threat intelligence, real-time threat detection powered by AI and machine learning, scalability, cost-effectiveness, and automation for incident response. Our solution safeguards essential services, mitigates emerging threats, and ensures the security and resilience of not only Kenyan but also African infrastructure projects.
 
 #### Objective:Enable Sustainable Development Goal 9 --> Trade, Industry & Infrastructure --> Build resilient infrastructure, promote sustainable industrialization and foster innovation , anticipated benefits of using Ngao+ :
 
-x
+
 
 
 ## High-level diagram for Advanced Threat Intelligence Platform ecosystem                                                                                                            
