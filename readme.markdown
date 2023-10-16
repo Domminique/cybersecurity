@@ -5,15 +5,7 @@
 
 #### Objective:Enable Sustainable Development Goal 9 --> Trade, Industry & Infrastructure --> Build resilient infrastructure, promote sustainable industrialization and foster innovation , anticipated benefits of using Ngao+ :
 
-Comprehensive Cybersecurity: The solution provides a holistic approach to cybersecurity for Kenyan infrastructure stakeholders. It proactively identifies and mitigates threats in real-time, safeguarding essential services, data, and systems.
-
-Customization for African Challenges: The platform is tailored to address the unique challenges and threat landscape in Kenyan, offering region-specific threat intelligence and compliance solutions.
-
-Scalability and Affordability: The solution's cloud-based architecture ensures scalability, allowing organizations of all sizes to benefit. Its pay-as-you-go model ensures cost-effectiveness.
-
-Proactive Threat Detection: Advanced AI and machine learning algorithms enable real-time threat detection and analysis, reducing response times and minimizing potential damage.
-
-Automation for Incident Response: Automated incident response actions enhance cybersecurity resilience by mitigating threats faster and reducing manual intervention.
+x
 
 
 ## High-level diagram for Advanced Threat Intelligence Platform ecosystem                                                                                                            
