@@ -13,7 +13,7 @@
 <img src="./digram1.png">
 
 
-## These enabling technologies are at the forefront of the cybersecurity industry, enabling Ngao+ to offer cutting-edge, proactive threat mitigation and advanced capabilities for African infrastructure stakeholders.
+## These enabling technologies are at the forefront of the cybersecurity industry, enabling Ngao+ to offer cutting-edge, proactive threat mitigation and advanced capabilities for Kenyan infrastructure stakeholders.
 
 1. Artificial Intelligence (AI) and Machine Learning: The platform employs advanced AI and machine learning algorithms for real-time threat detection and analysis. These technologies enhance the accuracy of threat identification and adapt to evolving cyber threats.
 
