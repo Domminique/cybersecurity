@@ -102,15 +102,22 @@ We learned streaming in the Cloud can help us here,  so took a Data Engineering,
 During the course work, on the volume side we found a tool to assist in autoscaling processing and analysis, so that the system can handle the volume. On the velocity side,  a tool that can handle the variability of the streaming process was available. On the variety side, we looked at how artificial intelligence could help us with unstructured data. ## What's next for kafunge
 Ngao+ to be adapted not only in Kenya but also by Africa's largest organisations as their one-stop threat intelligence platform that leverages Google Cloud's advanced features to proactively detect and mitigate cybersecurity threats in real-time.
 
-Build a sustainability and profitability  business requiring a combination of smart pricing, diversification of revenue streams, excellent customer service, and a commitment to ongoing improvement and innovation. We intent to stay agile and adapt to the evolving cybersecurity landscape to remain competitive and meet customer needs.    
+Build a sustainability and profitability  business requiring a combination of smart pricing, diversification of revenue streams, excellent customer service, and a commitment to ongoing improvement and innovation. We intent to stay agile and adapt to the evolving cybersecurity landscape to remain competitive and meet customer needs.  
+
+# GCP hands-on 
+
+* This assumes you have a GCP account with some credits, 
+
+We built the pipeline on Google Cloud Platform (GCP) and used Google products such as Cloud Pub/Sub, a scalable data analytics product that facilitates data ingestion. Security events are published to Cloud Pub/Sub and then pull subscriptions make the data available to log parsers and other services via Google’s Cloud Dataflow, a fully managed service for stream and batch processing that puts the data in formats security analysts can use, then implemented an alerting system that triggers notifications when potential fraud is detected.
 
 # 1. Data Collection and Integration:
 
-
+We have data coming from external vendors, and all this data is ingested through Pub/Sub, and Pub/Sub pushes it through to Dataflow, which can parse or enrich the data .The way the data comes in can be simple such as comma-separated. Other times it’s a mess. There is not a common format among the vendors
 
 # 2. Data Ingestion
 
-Used Google Cloud Pub/Sub to ingest the transaction data in real-time. This ensured that the data is continuously updated and available for analysis.                                                                                                          
+Used Google Cloud Pub/Sub to ingest the transaction data in real-time. This ensured that the data is continuously updated and available for analysis.     
+
 <img src="./digram2.png">
 
 
