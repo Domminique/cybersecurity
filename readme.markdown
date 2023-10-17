@@ -252,6 +252,14 @@ GCP Setup requires one to create a new Google account  and then use that account
 
 We built the pipeline on Google Cloud Platform (GCP) and used Google products such as Cloud Pub/Sub, a scalable data analytics product that facilitates data ingestion. Security events are published to Cloud Pub/Sub and then pull subscriptions make the data available to log parsers and other services via Google’s Cloud Dataflow, a fully managed service for stream and batch processing that puts the data in formats security analysts can use, then implemented an alerting system that triggers notifications when potential fraud is detected.WE train machine learning model that we inject in Dataflow to give real time alerts via google monitoring tool.
 
+To ensure that the proper APIs and permissions are set
+
+```javascript
+
+gcloud services disable dataflow.googleapis.com --force
+gcloud services enable dataflow.googleapis.com
+```
+
 # 1. Data Collection and Integration:
 
 We have data coming from external vendors, and all this data is ingested through Pub/Sub, and Pub/Sub pushes it through to Dataflow, which can parse or enrich the data .The way the data comes in can be simple such as comma-separated. Other times it’s a mess. There is not a common format among the vendors
