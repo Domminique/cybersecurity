@@ -243,11 +243,11 @@ Ngao+ to be adapted not only in Kenya but also by Africa's largest organisations
 
 Build a sustainability and profitability  business requiring a combination of smart pricing, diversification of revenue streams, excellent customer service, and a commitment to ongoing improvement and innovation. We intent to stay agile and adapt to the evolving cybersecurity landscape to remain competitive and meet customer needs.  
 
-# GCP hands-on 
+# GCP Setup
 
 * This assumes you have a GCP account with some credits, 
 
-We built the pipeline on Google Cloud Platform (GCP) and used Google products such as Cloud Pub/Sub, a scalable data analytics product that facilitates data ingestion. Security events are published to Cloud Pub/Sub and then pull subscriptions make the data available to log parsers and other services via Google’s Cloud Dataflow, a fully managed service for stream and batch processing that puts the data in formats security analysts can use, then implemented an alerting system that triggers notifications when potential fraud is detected.
+We built the pipeline on Google Cloud Platform (GCP) and used Google products such as Cloud Pub/Sub, a scalable data analytics product that facilitates data ingestion. Security events are published to Cloud Pub/Sub and then pull subscriptions make the data available to log parsers and other services via Google’s Cloud Dataflow, a fully managed service for stream and batch processing that puts the data in formats security analysts can use, then implemented an alerting system that triggers notifications when potential fraud is detected.WE train machine learning model that we inject in Dataflow to give real time alerts via google monitoring tool.
 
 # 1. Data Collection and Integration:
 
@@ -271,6 +271,27 @@ We clean and preprocess the data to remove inconsistencies and format it for ana
 #  5. Real-time Analysis Utilize 
 Google Cloud's real-time data analysis tool, Cloud Dataflow and Cloud Pub/Sub, analyzes incoming transaction data in real-time. We Implemented custom rules and machine learning model to identify potential fraud based on transaction patterns.
 
+Data visualization helps us make sense of our BigQuery data and help us analyze the data interactively. We use visualization tools to help su identify trends, respond to them, and make predictions using our data. We use Looker Studio to visualize data in the BigQuery table populated by our Dataflow pipeline.
+
+Looker Studio visualizes data in BigQuery using the BigQuery connector. We create a data source, a report, and charts that visualize data in the  table.
+
+**Creating a chart using a custom query**
+You may find that it is easier to work with an existing query to produce the desired reports and visualizations in Looker Studio. The Custom Query option lets you leverage BigQuery's full query capabilities such as joins, unions, and analytical functions.
+
+Alternatively, you can leverage BigQuery's full query capabilities by creating a view. A view is a virtual table defined by a SQL query. You can query data in a view by adding the dataset containing the view as a data source.
+
+When you specify a SQL query as your BigQuery data source, the results of the query are in table format, which becomes the field definition (schema) for your data source. When you use a custom query as a data source, Looker Studio uses your SQL as an inner select statement for each generated query to BigQuery. 
+
+```sql
+
+SELECT max(speed) as maxspeed, min(speed) as minspeed,
+avg(speed) as avgspeed, highway
+FROM `<PROJECTID>.demos.current_conditions`
+group by highway
+```
+
+
+
 #  6. Alerting and Reporting 
 We implemented an alerting system that triggers notifications when potential fraud is detected. Google Cloud Monitoring is used to set up alerting and Google Data Studio for creating real-time dashboards and reports.
 
@@ -287,6 +308,7 @@ We ensured compliance with relevant data protection and privacy regulations in a
  Before we deploying the system in a live environment, we thoroughly test and validate its accuracy and efficiency in detecting fraudulent activities.
 
 *Thank you for you interest in the project*
+- 📫 How to reach us - savannaspace@gmail.com
 
 # License
 
