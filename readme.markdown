@@ -246,8 +246,9 @@ Ngao+ to be adapted not only in Kenya but also by Africa's largest organisations
 Build a sustainability and profitability  business requiring a combination of smart pricing, diversification of revenue streams, excellent customer service, and a commitment to ongoing improvement and innovation. We intent to stay agile and adapt to the evolving cybersecurity landscape to remain competitive and meet customer needs.  
 
 # GCP Setup
+GCP Setup requires one to create a new Google account  and then use that account to start a free trial to access the console. The $300 free credits for new accounts requires a credit card, more info here.
 
-* This assumes you have a GCP account with some credits, 
+* This assumes you have a GCP account with some credits 
 
 We built the pipeline on Google Cloud Platform (GCP) and used Google products such as Cloud Pub/Sub, a scalable data analytics product that facilitates data ingestion. Security events are published to Cloud Pub/Sub and then pull subscriptions make the data available to log parsers and other services via Google’s Cloud Dataflow, a fully managed service for stream and batch processing that puts the data in formats security analysts can use, then implemented an alerting system that triggers notifications when potential fraud is detected.WE train machine learning model that we inject in Dataflow to give real time alerts via google monitoring tool.
 
