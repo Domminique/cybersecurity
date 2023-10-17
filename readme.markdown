@@ -275,7 +275,7 @@ Data visualization helps us make sense of our BigQuery data and help us analyze 
 
 Looker Studio visualizes data in BigQuery using the BigQuery connector. We create a data source, a report, and charts that visualize data in the  table.
 
-**Creating a chart using a custom query**
+Creating a chart using a custom query
 You may find that it is easier to work with an existing query to produce the desired reports and visualizations in Looker Studio. The Custom Query option lets you leverage BigQuery's full query capabilities such as joins, unions, and analytical functions.
 
 Alternatively, you can leverage BigQuery's full query capabilities by creating a view. A view is a virtual table defined by a SQL query. You can query data in a view by adding the dataset containing the view as a data source.
@@ -290,7 +290,7 @@ FROM `<PROJECTID>.demos.current_conditions`
 group by highway
 ```
 
-
+<img src="./looker.png">
 
 #  6. Alerting and Reporting 
 We implemented an alerting system that triggers notifications when potential fraud is detected. Google Cloud Monitoring is used to set up alerting and Google Data Studio for creating real-time dashboards and reports.
