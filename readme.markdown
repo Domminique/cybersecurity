@@ -5,7 +5,7 @@
 **Solution**: Ngao+ , a cutting-edge cybersecurity platform tailored to Kenyan infrastructure. It offers region-specific threat intelligence, real-time threat detection powered by AI and machine learning, scalability, cost-effectiveness, and automation for incident response. Our solution safeguards essential services, mitigates emerging threats, and ensures the security and resilience of not only Kenyan but also African infrastructure projects.
 
 #### Objective:Enable Sustainable Development Goal 9 - **Trade, Industry & Infrastructure** - Build resilient infrastructure, promote sustainable industrialization and foster innovation. 
-[![Everything Is AWESOME](./digram1.png)](https://youtu.be/TVT3p-X_a5I?si=0Qv756UYmiLl_lk8 "Everything Is AWESOME")
+[![Everything Is AWESOME](https://i.stack.imgur.com/q3ceS.png)](https://youtu.be/TVT3p-X_a5I?si=0Qv756UYmiLl_lk8 "Everything Is AWESOME")
 
 
 #  Ngao+ Pitch Deck
